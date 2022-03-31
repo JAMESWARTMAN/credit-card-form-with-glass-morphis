@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>My Project</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous" />
+</head>
+
+<body>
+    <div class="card">
+
+        <form>
+            <h1 class="card__title">Enter Payment Information
+            </h1>
+            <div class="card__row">
+                <div class="card__col">
+                    <label for="cardNumber" class="card__label">Card Number</label
+                ><input
+                  type="text"
+                  class="card__input card__input--large"
+                  id="cardNumber"
+                  placeholder="xxxx-xxxx-xxxx-xxxx"
+                />
+              </div>
+              <div class="card__col card__chip">
+                <img src="img/chip.svg" alt="chip" />
+              </div>
+            </div>
+            <div class="card__col">
+              <label for="cardExpiry" class="card__label">Expiry Date</label
+              ><input
+                type="text"
+                class="card__input"
+                id="cardExpiry"
+                placeholder="xx/xx"
+              />
+            </div>
+            <div class="card__col">
+              <label for="cardCcv" class="card__label">CCV</label
+              ><input
+                type="text"
+                class="card__input"
+                id="cardCcv"
+                placeholder="xxx"
+              />
+            </div>
+            <div class="card__col card__brand"><i id="cardBrand"></i></div>
+          </div>
+        </form>
+      </div>
+        </form>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cleave.js/1.0.2/cleave.min.js" integrity="sha512-SvgzybymTn9KvnNGu0HxXiGoNeOi0TTK7viiG0EGn2Qbeu/NFi3JdWrJs2JHiGA1Lph+dxiDv5F9gDlcgBzjfA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
